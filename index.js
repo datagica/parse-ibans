@@ -58,8 +58,6 @@ function algorithm ({
       })
     }
 }
-function parseIBANs(input) {
-  return Promise.resolve(tokenize(input, algorithm, []))
-}
+async function parseIBANs(input) { return tokenize(input, algorithm, []) }
 
 module.exports = parseIBANs.default = parseIBANs
