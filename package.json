@@ -1,6 +1,6 @@
 {
   "name": "@datagica/parse-ibans",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse IBANs",
   "main": "./index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "https://github.com/datagica/parse-ibans.git"
   },
   "dependencies": {
-    "@datagica/tokenize": "0.0.2",
+    "@datagica/tokenize": "^0.0.2",
     "ibantools": "^1.3.0"
   },
   "devDependencies": {
